@@ -1,0 +1,408 @@
+@media (min-width: 1024px) and (max-width: 1200px){
+    .right-part, .mobile-map{
+        display: none;
+    }
+
+    .left-part {
+        width: 100%;
+    }
+
+    .left-part .map {
+        display: flex;
+        width: 100%;
+        height: 630px;
+        position: relative;
+    }
+
+    .slider-phone {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 690px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .slider-phone .objects-slider-phone {
+        width: 70%;
+        height: 690px;
+    }
+
+    .slider-phone .objects-slider-phone-big__slide img {
+        width: 100%;
+        height: 690px;
+    }
+
+    .slider-phone .objects-slider-phone-mini {
+        width: 30%;
+        height: 690px;
+    }
+
+    .blog-slider-phone {
+        display: none;
+        flex-direction: column;
+    }
+
+    .slider-phone .cost {
+        top: 10px;
+        left: 10px;
+    }
+
+    .blog-slider-phone .swiper-container{
+        height: 300px;
+    }
+
+    .blog-slider-phone__slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog-slider-phone {
+        margin-bottom: 90px;
+    }
+
+    .projects-images {
+        margin: auto;
+        width: 627px;
+        flex-wrap: wrap;
+    }
+
+    .projects-images img {
+        width: 270px;
+        height: 381px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1023px){
+    .right-part,
+    .left-part .map{
+        display: none;
+    }
+
+    .show {
+        display: flex !important;
+    }
+
+    .left-part{
+        width: 100%;
+    }
+
+    .container-left-part,
+    .container-left-part-small,
+    .container-left-part-middle{
+        width: 97%;
+    }
+
+    .left-part header .header-menu, .left-part-all header .header-menu {
+        display: none;
+    }
+
+    .left-part .mobile-map {
+        display: flex;
+        width: 100%;
+        height: 360px;
+        position: relative;
+    }
+
+    .header-menu-phone {
+        display: flex;
+    }
+
+    .header-menu-block-phone {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 10px;
+        background: #fff;
+        z-index:5;
+    }
+
+    .header-menu-block-phone li{
+        margin-top: 15px;
+    }
+
+    .header-menu-block-phone li a{
+        margin-bottom: 30px;
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .burger-menu_overlay {
+        display: none;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #f4f4f4;
+        opacity: .9;
+        z-index: 3;
+    }
+
+    .contacts-links .contact-link .link-address, .contacts-links .contact-link .link-add {
+        margin: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .contacts-form .contacts-form-address h2 {
+        text-align: center;
+    }
+
+    footer {
+        height: 135px;
+    }
+
+    footer .footer-main {
+        flex-direction: column;
+        align-items:flex-start;
+        padding: 0 15px;
+    }
+
+    footer .footer-main .footer-info {
+        flex-direction: column-reverse;
+    }
+
+    footer .footer-main .footer-info .footer-info-privacy-contact {
+        margin: 15px 0;
+    }
+
+    .article-info h1,
+    .article h2{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .articles-similar {
+        margin-top: 70px;
+    }
+    .articles-similar-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .articles-similar h2 {
+        width: 100%;
+    }
+
+    .slider-phone {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 435px;
+        position: relative;
+        margin-bottom: 470px;
+    }
+
+    .slider-phone .objects-slider-phone {
+        width: 100%;
+        height: 435px;
+    }
+
+    .slider-phone .objects-slider-phone-big__slide img {
+        width: 100%;
+        height: 435px;
+    }
+
+    .slider-phone .objects-slider-phone-mini {
+        width: 30%;
+        height: 435px;
+    }
+
+    .slider-phone .cost {
+        margin: 0;
+        top: auto;
+        bottom: -130%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .project h1{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .project .main-projects .main-projects-block {
+        flex-direction: column;
+    }
+
+    .project .main-projects .main-project{
+        margin-bottom: 50px;
+    }
+
+    .project .main-projects .main-project:last-child {
+        margin-bottom: 0;
+    }
+
+    .objects-slider .object-slider-images {
+        height: 310px;
+    }
+
+    .objects-slider .swiper-button-prev, .objects-slider .swiper-button-next {
+        margin: auto;
+        top: auto;
+        bottom: 0px;
+        width: 39px;
+        height: 39px;
+    }
+
+    .objects-slider .swiper-button-prev {
+        left: 35%;
+    }
+    .objects-slider .swiper-button-next {
+        right: 35%;
+    }
+
+    .blog {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .blog-previews-block h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+
+    .blog-categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+    }
+
+    .blog-previews .blog-preview h3 {
+        width: 100%;
+    }
+
+    .blog-slider-phone {
+        margin-bottom: 70px;
+    }
+
+    .blog-slider-phone-images-bottom {
+        display: none;
+    }
+
+    .projects-info h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .main-objects .main-objects-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .main-objects .main-objects-block .main-objects-residential, .main-objects .main-objects-block .main-objects-commercial {
+        align-items: center;
+    }
+
+    .main-objects .main-objects-block .main-objects-residential, .main-objects .main-objects-block .main-objects-commercial {
+        margin-top: 25px;
+    }
+
+    .main-objects .main-objects-block .main-objects-residential h2, .main-objects .main-objects-block .main-objects-commercial h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .projects-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    .projects-images img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .projects-images img:last-child {
+        margin-bottom: 0;
+    }
+
+    .projects-info h1, .crew-title h1 {
+        width: 70%;
+        margin: auto;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .crew-img-table {
+        display: none;
+    }
+
+    .crew-person {
+        position: relative;
+    }
+
+    .crew-person .crew-person-info .crew-person-name {
+        margin-bottom: 330px;
+    }
+
+    .crew-person img {
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        width: 240px;
+        height: 310px;
+    }
+
+    .services h2{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .services-info .services-info-name {
+        margin-top: 5px;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .main-title h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .main-title .btn-block-primary {
+        margin: auto;
+    }
+
+    .main-blog .main-blog-articles {
+        flex-direction: column;
+    }
+
+    .main-blog .main-blog-articles .blog-article {
+        width: 100%;
+    }
+
+
+}
